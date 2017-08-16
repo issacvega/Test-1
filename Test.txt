@@ -1,0 +1,9 @@
+git init (iniciar git en carpeta nueva)
+git status (revisar status-cambios)
+git add filename.file (añadir los archivos nuevos para que git busque cambios en estos archivos)
+git add '*.txt' (Añade todos los txt en el repo)
+git commit -m "Comentarios de los cambios" (agregar comentarios a los cambios)
+git log (revision de cambios)Vin
+git remote add origin https://github.com/sasargonz/Repositorio.git (Vincular carpeta a un repositorio *una vez*)
+git push -u origin master (origin refiere al repositorio y master la persona, en este caso yo por ser creador)
+git pull origin master (Cuando existen otras personas modificando podemos bajar todos los cambios)
